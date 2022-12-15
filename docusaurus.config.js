@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -69,7 +69,7 @@ const config = {
             position: 'right',
             label: 'Get Started',
           },
-          {to: '/blog', label: 'Tech Blog', position: 'right'},
+          { to: '/blog', label: 'Tech Blog', position: 'right' },
           {
             href: 'https://forum.klaytn.foundation',
             label: 'Developers Forum',
@@ -132,6 +132,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config
