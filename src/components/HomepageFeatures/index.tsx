@@ -5,6 +5,9 @@ import styled from 'styled-components'
 import img1 from '../../images/thum_01_L.png'
 import img2 from '../../images/thum_02_L.png'
 import img3 from '../../images/thum_03_L.png'
+import img4 from '../../images/thum_04_L.png'
+import img5 from '../../images/thum_05_L.png'
+import img6 from '../../images/thum_06_L.png'
 
 import View from '../View'
 import style from '@site/src/consts/style'
@@ -39,10 +42,10 @@ const StyledImgBox = styled(View)`
 
 const featureList: FeatureType[] = [
   {
-    title: 'Start Building',
+    title: 'Klaytn Overview',
     imgSrc: img1,
     description: (
-      <>First time with Klaytn and want to get started right away?</>
+      <>Take your first step with Klaytn</>
     ),
     to: '/docs/GettingStarted/klaytn-basics',
   },
@@ -52,6 +55,24 @@ const featureList: FeatureType[] = [
     description: (
       <>Learn about the tools and resources in the Klaytn Ecosystem.</>
     ),
+    to: '/docs/GettingStarted/klaytn-basics',
+  },
+  {
+    title: 'Node Operation',
+    imgSrc: img3,
+    description: <>Learn how to install and operate Klaytn nodes.</>,
+    to: '/docs/GettingStarted/klaytn-basics',
+  },
+  {
+    title: 'Start Building',
+    imgSrc: img3,
+    description: <>Want to get started right away?</>,
+    to: '/docs/GettingStarted/klaytn-basics',
+  },
+  {
+    title: 'Node Operation',
+    imgSrc: img3,
+    description: <>Learn how to install and operate Klaytn nodes.</>,
     to: '/docs/GettingStarted/klaytn-basics',
   },
   {
